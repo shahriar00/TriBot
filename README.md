@@ -20,7 +20,6 @@
 
 ![t3](https://github.com/shahriar00/TriBot/assets/70763173/dffdb52c-05af-4469-83ce-953db8b84fa2)
 
-
 ![t4](https://github.com/shahriar00/TriBot/assets/70763173/537ef193-fc82-432b-8149-243c868d96f0)
 
 ![t5](https://github.com/shahriar00/TriBot/assets/70763173/05e12e34-bc84-4268-8db1-77d8a5c34f8f)
