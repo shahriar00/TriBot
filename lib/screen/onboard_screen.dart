@@ -15,9 +15,9 @@ class OnboardingScreen extends StatelessWidget {
     final list = [
       //onboarding 1
       Onboard(
-          title: 'Ask me Anything',
+          title: 'Ask me Any Type of Question',
           subtitle:
-              'I can be your Best Friend & You can ask me anything & I will help you!',
+              'Hey! Welcome to the AI ChatBot',
           lottie: 'iot'),
 
       //onboarding 2
@@ -25,11 +25,12 @@ class OnboardingScreen extends StatelessWidget {
         title: 'Imagination to Reality',
         lottie: 'loading',
         subtitle:
-            'Just Imagine anything & let me know, I will create something wonderful for you!',
+            'Are you ready to enjoy the AI Chat? Lets Start!',
       ),
     ];
 
     return Scaffold(
+         backgroundColor: const Color(0xFFFBFBFB),
       body: PageView.builder(
         controller: c,
         itemCount: list.length,
@@ -60,7 +61,7 @@ class OnboardingScreen extends StatelessWidget {
                 child: Text(
                   list[ind].subtitle,
                   textAlign: TextAlign.center,
-                  style: TextStyle(
+                  style: const TextStyle(
                       fontSize: 13.5,
                       letterSpacing: .5,
                       ),

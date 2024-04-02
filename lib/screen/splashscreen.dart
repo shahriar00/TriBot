@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:tribot/helper/pref.dart';
 import 'package:tribot/screen/homescreen.dart';
 import 'package:tribot/screen/widgets/custom_loading.dart';
-import 'package:tribot/screen/widgets/onboard_screen.dart';
+import 'package:tribot/screen/onboard_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -28,6 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0xFFFBFBFB),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.center,

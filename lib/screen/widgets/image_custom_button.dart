@@ -8,15 +8,16 @@ class CustomBtn extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+       final mq = MediaQuery.of(context).size;
     return Align(
       child: ElevatedButton(
           style: ElevatedButton.styleFrom(
               shape: const StadiumBorder(),
               elevation: 0,
-              backgroundColor: Colors.blueGrey,
+              backgroundColor: Colors.blue,
               textStyle:
                   const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
-              minimumSize: Size(MediaQuery.of(context).size.width * .4, 50)),
+              minimumSize: Size(mq.width * .4, 50)),
           onPressed: onTap,
           child: Text(text)),
     );

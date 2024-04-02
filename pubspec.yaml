@@ -37,14 +37,28 @@ dependencies:
   cupertino_icons: ^1.0.2
   #icons_launcher: ^2.1.7
   get:
-  lottie: ^3.1.0
+  lottie: 
   # For Hive Database
   # hive: ^4.0.0-dev.2
   # isar_flutter_libs: ^4.0.0-dev.13
 
   # Using this version due to less apk size
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
+  hive: 
+  hive_flutter: 
+  http:
+  # For Custom Animation
+  flutter_animate: 
+  animated_text_kit: 
+  cached_network_image: 
+  path_provider: 
+  share_plus: 
+  dart_openai: 
+  # For Google Language Translate
+  translator_plus: 
+  # For Saving Image to Gallery
+  gallery_saver_updated: 
+  # Facebook Ads
+  easy_audience_network: 
 
 dev_dependencies:
   flutter_test:
