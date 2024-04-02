@@ -32,6 +32,11 @@
 
 ![t9](https://github.com/shahriar00/TriBot/assets/70763173/abb5c8b8-36a0-4405-9ba6-7cc00e753853)
 
+![t10](https://github.com/shahriar00/TriBot/assets/70763173/b610a6cb-5f37-43dd-8d82-a974ae568afc)
+
+
+
+
 
 
 
