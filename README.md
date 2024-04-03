@@ -1,5 +1,4 @@
 ## Tribot
-
 ### Key Features: 
       -> Splash Screens.
       -> Animated image used for beautiful views.
